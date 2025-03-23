@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+    @apply bg-[#4393ce]
+}
+
+input, button{
+    @apply focus:border-none focus:outline-none flex-1
+}
